@@ -4,10 +4,5 @@
   "main": "index.js",
   "repository": "https://github.com/balajipatil0009/backend_mern1.git",
   "author": "balajipatil0009 <balajipatil20030@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.1"
-  }
+  "license": "MIT"
 }
