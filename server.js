@@ -12,9 +12,7 @@ require('./User.js');
 
 app.use(express.json());
 
-app.get("/", (req, res)=>{
-   res.send("done baby");
-});
+app.use(express.static('build'));
 
 app.post("/login",(req, res)=>{
   const{name, password }= req.body;
